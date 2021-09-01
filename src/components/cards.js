@@ -22,7 +22,7 @@ export function Card(props) {
                 </div>
             </div>
             <div className="card__img">
-                <img src={src} />
+                <img alt={title} width="540" height="446" src={src} />
             </div> 
         </div>
     );

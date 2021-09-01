@@ -16,7 +16,7 @@ function App() {
         items={[
           {number: '10k+', text: 'Companies'},
           {number: '314', text: 'Templates'},
-          {number: '112M+', text: 'Queries'}
+          {number: '12M+', text: 'Queries'}
         ]}
         src={header}/>
     </div>
