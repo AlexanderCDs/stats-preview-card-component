@@ -10,17 +10,15 @@ import header from './assets/image/image-header-desktop.jpg';
 function App() {
   return (
     <div className="container">
-      <div className="content">
-        <Card 
-          title='Get insights that help your business grow.'
-          description='Discover the benefits of data analytics and make better decisions regarding revenue. customer experience, and overall efficiency.'
-          items={[
-            {number: '10k', text: 'Companies'},
-            {number: '314', text: 'Templates'},
-            {number: '112M+', text: 'Queries'}
-          ]}
-          src={header}/>
-      </div>
+      <Card 
+        title={<>Get {<span>insights</span>} that help your business grow.</>}
+        description='Discover the benefits of data analytics and make better decisions regarding revenue. customer experience, and overall efficiency.'
+        items={[
+          {number: '10k+', text: 'Companies'},
+          {number: '314', text: 'Templates'},
+          {number: '112M+', text: 'Queries'}
+        ]}
+        src={header}/>
     </div>
   );
 }
